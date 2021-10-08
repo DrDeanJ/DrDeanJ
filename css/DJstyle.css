@@ -2,10 +2,10 @@ img.headshot {
   width: 100px;
   border-radius: 50px;
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 20px;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 img.stripe {
   width: 90%;
