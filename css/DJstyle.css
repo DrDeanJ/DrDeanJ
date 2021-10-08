@@ -1,34 +1,20 @@
-img.headshot {
+img {
   width: 100px;
   border-radius: 50px;
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 20px;
   margin-left: 20px;
-  margin-bottom: 20px;
 }
-img.stripe {
-  width: 90%;
-  height: 10px;
-  float: left;
-}
-
-img.stripeEnd {
-  width: 40px;
-}
-
 h1 {
   font-size: 150%;
   font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
   font-variant: small-caps;
-  text-align: center;
+  text-align:center;
 }
 header {
-  background-color: #18453b;
-  color: white;
-}
-.stripe {
-  background-color: pink;
+  background-color: #18453B;
+  color:white;
 }
