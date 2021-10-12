@@ -1,34 +1,107 @@
+header, footer, nav, address, div#main{
+  max-width: 60rem;
+}
+ul {
+  padding-left: 0 4em;
+  font-weight:bold;
+}
 img.headshot {
-  width: 100px;
-  border-radius: 50px;
-  float: left;
+
+  width: 4rem;
+  border-radius: 50%;
   margin-top: 10px;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-left: 20px;
   margin-bottom: 10px;
+  vertical-align:middle;
 }
 img.stripe {
-  width: 90%;
-  height: 10px;
-  float: left;
+  width: 92%;
+  height: 0.25rem;
+  display: inline-block;
+  display: none;
 }
 
 img.stripeEnd {
-  width: 40px;
+  width: 2rem;
+  display: inline-block;
+  padding-top: 1rem;
+  display: none;
 }
 
-h1 {
+h1,h2, h3 {
+  
   font-size: 150%;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
   font-variant: small-caps;
   text-align: center;
+  padding-top: 1rem;
 }
-header {
-  background-color: #18453b;
+
+h2, h3 {
+  color: #18453b;
+  font-size: 125%;
+  padding-top: 0;
+}
+
+h3{
+  text-align: left;
+  padding-left: 1em;
+}
+header,
+footer {
+  
+  background: #18453b;
+}
+
+header,
+footer,
+address {
+  background: linear-gradient(#700505, #c50e0e);
   color: white;
 }
+header {
+  font-size: 150%;
+  text-align: center;
+}
+
+p {
+  padding-left: 2rem;
+  padding-right: 4rem;
+   column-count: 2;
+  text-align:justify;
+}
+
+
+@media (max-width: 40em){
+  p.split {
+    display:flex;
+    gap: 2em;
+
+  }
+}
+address {
+  background: linear-gradient(#c50e0e, #700505);
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .stripe {
-  background-color: pink;
+  display: inline-block;
+}
+nav{
+  width:100%;
+  align-items:center
+}
+nav a{
+  display: inline-block;
+  width: 24.3%;
+  background:#c50e0e;
+  color:white;
+  text-align:center;
+  margin-top:1rem;
 }
