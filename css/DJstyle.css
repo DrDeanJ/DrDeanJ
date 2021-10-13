@@ -42,13 +42,15 @@ h1,h2, h3 {
 
 h2, h3 {
   color: #700505;
-  font-size: 125%;
+  font-size: 120%;
   padding-top: 0;
 }
 
 h3{
+  font-size: 100%;
   text-align: left;
   padding-left: 1em;
+  
 }
 header,
 footer {
