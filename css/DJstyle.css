@@ -1,4 +1,4 @@
-header, footer, nav, address{
+header, footer, nav, address, .main{
   max-width: 60rem;
 }
 ul {
