@@ -70,8 +70,8 @@ header {
 }
 
 p {
-  padding-left: 2rem;
-  padding-right: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
    column-count: 2;
   text-align:justify;
 }
