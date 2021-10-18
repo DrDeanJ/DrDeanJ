@@ -77,9 +77,9 @@ header {
 }
 
 p {
-  padding-left: 2rem;
-  padding-right: 4rem;
-   column-count: 2;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  column-count: 2;
   text-align:justify;
 }
 
