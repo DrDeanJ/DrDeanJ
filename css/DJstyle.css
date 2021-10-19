@@ -84,7 +84,7 @@ p {
 }
 
 
-@media (max-width: 40em){
+@media (max-width: 50rem){
   p.split {
     display:flex;
     gap: 2em;
@@ -94,10 +94,8 @@ p {
 address {
   background: linear-gradient(#c50e0e, #700505);
   color: white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: .1rem 1rem;
+  margin: .1rem 1rem;
 }
 .stripe {
   display: inline-block;
